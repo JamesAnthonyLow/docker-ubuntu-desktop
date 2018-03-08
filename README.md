@@ -32,7 +32,7 @@ $ ./build.sh
 $./run.sh vnc
 ```
 
-5. Use a [VNC client](https://help.ubuntu.com/community/VNC/Clients) to connect to the container on port 5901 localhost:1.  I recommend [Remmina Remote Desktop Client](https://www.remmina.org/wp/) that comes with Ubuntu 16.04.
+5. Use a [VNC client](https://help.ubuntu.com/community/VNC/Clients) to connect to the container on port 5901 localhost:1.  I recommend [Remmina Remote Desktop Client](https://www.remmina.org/wp/) that comes with Ubuntu 16.04. **The password is "password"**
 
 6. Run the **Xilinx_SDK_2017.1_0415_1_Lin64.bin** executable and follow the prompts to install the **Xilinx SDK**:
 
