@@ -1,6 +1,6 @@
 # Petalinux 2017.1 Dockerfile
 
-Fork of [queeno/docker-ubuntu-desktop](https://github.com/queeno/docker-ubuntu-desktop) designed to contain [Petalinux 2017.1] (http://www.wiki.xilinx.com/PetaLinux+Getting+Started) and its dependency [Xilinx SDK](https://www.xilinx.com/products/design-tools/embedded-software/sdk.html).
+Fork of [queeno/docker-ubuntu-desktop](https://github.com/queeno/docker-ubuntu-desktop) designed to contain [Petalinux 2017.1](http://www.wiki.xilinx.com/PetaLinux+Getting+Started) and its dependency [Xilinx SDK](https://www.xilinx.com/products/design-tools/embedded-software/sdk.html).
 
 # How to run
 
