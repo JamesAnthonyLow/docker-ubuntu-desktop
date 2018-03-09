@@ -54,11 +54,23 @@ $ ./Xilinx_SDK_2017.1_0415_1_Lin64.bin
 ./run.sh
 ```
 
-10. Inside the container run the **petalinux-v2017.1-final-installer.run** executable and specify the ```/opt``` directory as an argument:
+10. Source the newly available ```settings.sh``` script in ```/opt/Xilinx/settings.sh```:
+
+```bash
+$ source /opt/Xilinx/settings.sh
+```
+
+11. Inside the container run the **petalinux-v2017.1-final-installer.run** executable and specify the ```/opt``` directory as an argument:
 ```
 ./petalinux-v2017.1-final-installer.run /opt
 ```
 
-11. Follow the prompts to install petalinux
+12. Follow the prompts to install petalinux
 
-12. Run the ```commit.sh``` script again to save the petalinux installation.
+13. Add a script to your bash profile to source the ```/opt/Xilinx/settings.sh``` script and the ```/opt/settings.sh``` petalinux script:
+
+```bash
+echo "source /opt/Xilinx/settings.sh\rsource /opt/settings.sh" >> ~/.bashrc
+```
+
+14. Run the ```commit.sh``` script again to save the petalinux installation.
